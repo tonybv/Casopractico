@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgb(206, 66, 66);
+    padding: 10px;
+}
+
+#logoempresa
+{
+    border: 0;
+
+    height: 120px;
+
+    display: flex;
+    
+    text-decoration: none;
+
+    color: black;
+    
+    align-items: center;
+}
+
+#logo
+{
+    width: 150px;
+    height: 100px;
+
+    margin-right: 20px;
+}
+
+#empresa
+{
+    font-size: 40px;
+
+}
+
+nav .link-nav
+{
+    margin: 0 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+
+    font-weight: bold; /*aplica negrita*/
+}
+
+nav .link-nav:hover
+{
+    color: orange;
+}
